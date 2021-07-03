@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMETestTask | SEE ALL MEMES</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <nav id="nav" class="navbar border-bottom mb-5">
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand">
+                <div class="icono">
+
+                </div>
+
+                Meme <br>Generator
+
+            </a>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Hot Memes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQS</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+
+                <form id="form-buscar-imagen" class="border mb-3">
+                    <div class="form-group">
+                        <input type="text" name="" id="input-busqueda" class="form-control" placeholder="Search memes">
+                        <button id="btn-buscar" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg>
+                        </button>
+                    </div>
+                </form>
+                <p id="search-results"></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/10-Guy.jpg" alt="10-Guy">
+                <div class="card-body">
+                    <h5 class="card-title">10-Guy</h5>
+                    <button class="btn">
+                        
+                        Use Meme
+
+                    </button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Afraid-To-Ask-Andy.jpg" alt="Afraid-To-Ask-Andy">
+                <div class="card-body">
+                    <h5 class="card-title">Afraid To Ask Andy</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Arthur-Fist.jpg" alt="Arthur-Fist">
+                <div class="card-body">
+                    <h5 class="card-title">Arthur Fist</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Bad-Luck-Brian.jpg" alt="Bad-Luck-Brian">
+                <div class="card-body">
+                    <h5 class="card-title">Bad Luck Brian</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Bird Box.jpg" alt="Bird Box">
+                <div class="card-body">
+                    <h5 class="card-title">Bird Box</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Brace-Yourselves-X-is-Coming.jpg" alt="Brace-Yourselves-X-is-Coming">
+                <div class="card-body">
+                    <h5 class="card-title">Brace Yourselves X is Coming</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/But-Thats-None-Of-My-Business.jpg" alt="But-Thats-None-Of-My-Business">
+                <div class="card-body">
+                    <h5 class="card-title">But Thats None Of My Business</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Car-Salesman-Slaps-Roof-Of-Car.jpg" alt="Car-Salesman-Slaps-Roof-Of-Car">
+                <div class="card-body">
+                    <h5 class="card-title">Car Salesman Slaps Roof Of Car</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/distracted boyfriend.png" alt="distracted boyfriend">
+                <div class="card-body">
+                    <h5 class="card-title">distracted boyfriend</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Distracted-Boyfriend.jpg" alt="Distracted-Boyfriend">
+                <div class="card-body">
+                    <h5 class="card-title">distracted boyfriend</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Evil-Kermit.jpg" alt="Evil-Kermit">
+                <div class="card-body">
+                    <h5 class="card-title">Evil Kermit</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/First-World-Problems.jpg" alt="First-World-Problems">
+                <div class="card-body">
+                    <h5 class="card-title">First World Problems</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Futurama-Fry.jpg" alt="Futurama-Fry">
+                <div class="card-body">
+                    <h5 class="card-title">Futurama Fry</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Grandma-Finds-The-Internet.jpg" alt="Grandma-Finds-The-Internet">
+                <div class="card-body">
+                    <h5 class="card-title">Grandma Finds The Internet</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Hide-the-Pain-Harold.jpg" alt="Hide-the-Pain-Harold">
+                <div class="card-body">
+                    <h5 class="card-title">Hide the Pain Harold</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Leonardo-Dicaprio-Cheers.jpg" alt="Leonardo-Dicaprio-Cheers">
+                <div class="card-body">
+                    <h5 class="card-title">Leonardo Dicaprio Cheers</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/mocking-spongebob (1).jpg" alt="mocking-spongebob">
+                <div class="card-body">
+                    <h5 class="card-title">mocking spongebob</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Mocking-Spongebob.jpg" alt="Mocking-Spongebob">
+                <div class="card-body">
+                    <h5 class="card-title">Mocking Spongebob</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Mr-Krabs-Blur-Meme.jpg" alt="Mr-Krabs-Blur-Meme">
+                <div class="card-body">
+                    <h5 class="card-title">Mr Krabs Blur Meme</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/success kid HD.png" alt="success kid HD">
+                <div class="card-body">
+                    <h5 class="card-title">success kid HD</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Success-Kid.jpg" alt="Success-Kid">
+                <div class="card-body">
+                    <h5 class="card-title">Success Kid</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Surprised-Pikachu.jpg" alt="Surprised-Pikachu">
+                <div class="card-body">
+                    <h5 class="card-title">Surprised Pikachu</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/The-Most-Interesting-Man-In-The-World.jpg" alt="The-Most-Interesting-Man-In-The-World">
+                <div class="card-body">
+                    <h5 class="card-title">The Most Interesting Man In The World</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/This-Is-Where-Id-Put-My-Trophy-If-I-Had-One.jpg" alt="This-Is-Where-Id-Put-My-Trophy-If-I-Had-One">
+                <div class="card-body">
+                    <h5 class="card-title">This Is Where Id Put My Trophy If I Had One</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Who-Killed-Hannibal.jpg" alt="Who-Killed-Hannibal">
+                <div class="card-body">
+                    <h5 class="card-title">Who Killed Hannibal</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+            <div class="card col-3 m-3 ">
+                <img class="card-img-top" src="./assets/img/Meme SampleImages/Yall-Got-Any-More-Of-That.jpg" alt="Yall-Got-Any-More-Of-That">
+                <div class="card-body">
+                    <h5 class="card-title">Yall Got Any More Of That</h5>
+                    <button class="btn">Use Meme</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <p class="text-center" id="mensaje">
+                    End of results
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="mt-5">
+        <div class="container">
+
+            <div class="row pt-5 pb-5">
+                <div class="col-mt-3 center-block text-center">
+                    <p class="mb-3">
+
+                        <strong>Dexati, LLC</strong>
+                    </p>
+                    <p>Admin@dexati.com</p>
+                    <p>4900 Hopyard Road, Suite 100</p>
+                    <p>Pleasanton, CS 94588</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/buscador.js"></script>
+</body>
+
+</html>
